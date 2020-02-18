@@ -1,0 +1,17 @@
+.btn {
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+.btn:hover {
+  background-color: greenyellow;
+}
+:btn:active {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+}

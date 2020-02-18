@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+html,
+body {
+  min-height: 100vh;
+}
+
+header {
+  background-color: mediumorchid;
+  height: 75px;
+}
+main {
+  background-color: burlywood;
+  flex-grow: 1;
+  display: flex;
+}
+footer {
+  background-color: lightcoral;
+  height: 100px;
+}
+main aside.right-col {
+  flex-grow: 1;
+  background-color: palevioletred;
+}
+main section {
+  flex-grow: 7;
+}
+main aside.left-col {
+  flex-grow: 1;
+  background-color: tomato;
+}
